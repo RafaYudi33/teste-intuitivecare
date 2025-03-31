@@ -1,19 +1,16 @@
-<h1 align="center" style="font-weight: bold;">Teste intuitivecare</h1>
 
+<h1 align="center" style="font-weight: bold;">Teste intuitivecare</h1>
 
 <br>
 <p align="center">
- <a href="#teste1e2">Teste 1 e 2</a> •
- <a href="#teste3">Teste 3</a> •
- <a href="#teste4">Teste 4</a>
+ <a href="#teste1e2">Teste 1 e 2</a> 🧩 •
+ <a href="#teste3">Teste 3</a> 📊 •
+ <a href="#teste4">Teste 4</a> 🌐
 </p>
 
 <br>
 
-
-<h2 id="teste1e2">Teste 1 e 2</h2>
-
-
+<h2 id="teste1e2">🧩 Teste 1 e 2</h2>
 
 ```plaintext
 Teste Intuitivecare - Estrutura do Projeto
@@ -40,7 +37,6 @@ Teste Intuitivecare - Estrutura do Projeto
 │                   ├── JsoupWebScraper.java     // Implementação de raspagem de dados usando Jsoup.
 │                   └── WebScraper.java          // Interface para técnicas de raspagem de dados.
 └── Main.java                                   // Classe principal que inicia o processo de extração e salvamento de dados.
-
 ```
 
 ### Tecnologias Utilizadas
@@ -52,11 +48,11 @@ Teste Intuitivecare - Estrutura do Projeto
 O projeto aplica o princípio de inversão de dependência através do uso de interfaces (`Compressor`, `CsvSaver`, `PdfDataExtractor`, `WebScraper`), permitindo que detalhes de implementação específicos sejam facilmente modificáveis sem afetar outros componentes do sistema.
 
 ### Localização dos Arquivos
-Os arquivos são salvos no diretório especificado nas configurações do `Configurations.java`, com todos os arquivos resultantes sendo armazenados em `downloads` na raiz do projeto java. 
+Os arquivos são salvos no diretório especificado nas configurações do `Configurations.java`, com todos os arquivos resultantes sendo armazenados em `downloads` na raiz do projeto java.
 
 Este formato facilita a visualização da estrutura hierárquica do projeto e a localização dos componentes principais, sendo útil para compreensão rápida do layout e responsabilidades de cada parte do código.
 
-<h2 id="teste3">Teste 3</h2>
+<h2 id="teste3">📊 Teste 3</h2>
 
 O Teste 3 é focado na manipulação e consulta de bancos de dados, utilizando scripts SQL compatíveis com MySQL 8.0 e PostgreSQL >10.0. As tarefas envolvem a preparação e o processamento de dados financeiros e cadastrais de operadoras de saúde.
 
@@ -64,15 +60,11 @@ O Teste 3 é focado na manipulação e consulta de bancos de dados, utilizando s
 
 Todos os scripts SQL utilizados para o Teste 3, bem como a documentação correspondente, estão localizados na pasta **Teste 3**. Esta pasta contém todas as informações e arquivos necessários para executar as tarefas especificadas.
 
-
-
-<h2 id="teste4"> Teste 4 </h2>
-
-
+<h2 id="teste4">🌐 Teste 4 </h2>
 
 ### Visão Geral 
 
-O Teste 4 consiste no desenvolvimento de uma interface web e uma API para realização de buscas textuais em cadastros de operadoras. O backend foi desenvolvido utilizando Java com Spring e a biblioteca OpenCSV, seguindo os princípios de arquitetura limpa. O frontend foi construído com Vue.js e utiliza Axios para fazer requisições à API.
+O Teste 4 consiste no desenvolvimento de uma interface web e uma API para realização de buscas textuais em cadastros de operadoras. O backend foi desenvolvido utilizando Java com Spring e a biblioteca OpenCSV, seguindo os princípios de arquitetura limpa. O frontend foi construído com Vue.js e utiliza Axios para fazer requisições à API, além de Bootstrap para o design responsivo da interface.
 
 ## Estrutura do Projeto
 
@@ -116,11 +108,9 @@ org.rafs.intuitivecareback
 #### Tecnologias:
 - **Vue.js**: Framework utilizado para a construção da interface web.
 - **Axios**: Utilizado para fazer requisições HTTP ao servidor backend.
+- **Bootstrap**: Utilizado para estilizar e tornar a interface responsiva.
 
 #### Deploy:
 - **AWS S3**: A interface estática foi hospedada no AWS S3.
 - **URL**: `http://teste-intuitivecare.s3-website-us-east-1.amazonaws.com/`
-
-
-
 
