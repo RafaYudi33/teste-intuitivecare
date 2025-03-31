@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "f82b522b-d3ba-49bd-a814-a03c5b76889a",
+		"name": "teste-intuitivecare",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31792421"
+	},
+	"item": [
+		{
+			"name": "findByCity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://Intuitive-back.us-east-1.elasticbeanstalk.com/api/operator?city=Jundiaí",
+					"protocol": "http",
+					"host": [
+						"Intuitive-back",
+						"us-east-1",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"api",
+						"operator"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Jundiaí"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
