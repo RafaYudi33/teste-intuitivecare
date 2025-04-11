@@ -102,6 +102,7 @@ org.rafs.intuitivecareback
 ```
 - **URL Base**: `http://Intuitive-back.us-east-1.elasticbeanstalk.com`
 - **Coleção do Postman**: Disponível na pasta Teste 4.
+- **OBS**: Desativei o serviço na aws, pelo fato dos valores estarem aumentando, porém mantive a template. O front end continua ativo por ser gratuito.
 
 ### Frontend
 
